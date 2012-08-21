@@ -31,7 +31,9 @@
   <% end %>
   </tbody>
 </table>
-
+<div class="pagination"
+	<%= paginate @deals %>
+</div>	
 <br />
 
 <%= link_to 'New Deal', new_deal_path %>

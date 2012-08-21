@@ -4,6 +4,10 @@ gem 'rails', '3.2.1'
 
 gem 'sqlite3'
 
+# added by jt
+gem 'rack-mini-profiler'
+gem 'kaminari'
+
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'

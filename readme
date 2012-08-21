@@ -1,0 +1,13 @@
+1.	Profiled with miniprofiler gem
+At start
+	Deals index took an average of 1241ms to load
+	The sql query took an average of 75ms
+	
+At end
+	I cached the deals index page and added pagination
+	Not it takes an average of 85ms to load the deals index page before caching
+	and it take an average of 12.8ms for the page to load after the page has been cached.
+	Seems like a mixture of caching and pagination made the page load faster and made the page
+	a little more stable. In production compiling the assets could also take a little time off.
+	
+-------------------------------------------------------------------------------------
